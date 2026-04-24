@@ -28,7 +28,7 @@ const Simulator: React.FC = () => {
   const runSimulation = useCallback(async (currentParams: typeof params) => {
     setIsSimulating(true);
     try {
-      const res = await fetch('http://localhost:8000/api/v1/scenario', {
+      const res = await fetch('/api/v1/scenario', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(currentParams)

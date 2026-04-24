@@ -181,7 +181,7 @@ const Dashboard: React.FC = () => {
     setSelectedZone(null);
 
     try {
-      const response = await fetch('http://localhost:8000/api/v1/simulate', {
+      const response = await fetch('/api/v1/simulate', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ latitude: lat, longitude: lng })
