@@ -18,7 +18,7 @@ function App() {
       <div className="flex-1 flex flex-col h-screen overflow-hidden">
         <Header />
         <main className="flex-1 overflow-x-hidden overflow-y-auto bg-background/50 p-6">
-          {activeTab === 'dashboard' && <Dashboard setActiveTab={setActiveTab} />}
+          {activeTab === 'dashboard' && <Dashboard />}
           {activeTab === 'map' && <GISMap />}
           {activeTab === 'ai-insights' && <AIInsights />}
           {activeTab === 'simulator' && <Simulator />}
