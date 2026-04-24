@@ -1,5 +1,7 @@
 # 🌿 AgriVision AI: GeoAI-Based Crop Intelligence System
 
+**Live Demo: [https://agri-vision-ai-geo-ai-based-crop-in-gamma.vercel.app/](https://agri-vision-ai-geo-ai-based-crop-in-gamma.vercel.app/)**
+
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![React](https://img.shields.io/badge/Frontend-React%2018-blue.svg)](https://reactjs.org/)
 [![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688.svg)](https://fastapi.tiangolo.com/)
